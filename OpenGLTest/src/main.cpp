@@ -36,9 +36,6 @@ bool Init(const char *wndName)
 
     SDL_Log("Blablah\n");
 
-    freopen_s(NULL, "CON", "w", stdout); // redirects stdout
-    freopen_s(NULL, "CON", "w", stderr); // redirects stderr
-
     // Create our window centered at 512x512 resolution
     mainWindow = SDL_CreateWindow(wndName, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
                                   512, 512, SDL_WINDOW_OPENGL);
@@ -88,17 +85,9 @@ bool SetOpenGLAttributes()
 
 int main(int argc, char *argv[])
 {
-    FILE* pFile = fopen("C:\\Users\\and_s\\Desktop\\test.json", "rb");
-    char buffer[65536];
-    rapidjson::FileReadStream is(pFile, buffer, sizeof(buffer));
-    rapidjson::Document document;
-    document.ParseStream<0, rapidjson::UTF8<>, rapidjson::FileReadStream>(is);
-
-    printf("Json: %s\n", document["id"].GetString());
-
     std::cout << "Started OpenGL" << std::endl;
 
-    if (!Init(document["id"].GetString()))
+    if (!Init("Game Window"))
         return -1;
 
 
