@@ -7,17 +7,23 @@ set(CMAKE_CXX_STANDARD 14)
 find_package(OpenGL REQUIRED)
 include_directories(${OPENGL_INCLUDE_DIRS})
 
-add_subdirectory(ThirdParty/GLEW)
-add_subdirectory(ThirdParty/SDL)
-add_subdirectory(ThirdParty/rapidjson)
+add_subdirectory(src/ThirdParty/GLEW)
+add_subdirectory(src/ThirdParty/SDL)
+add_subdirectory(src/ThirdParty/rapidjson)
 
 #Link SDL statically
 add_definitions(-DSDL_STATIC=1)
 add_definitions(-DSDL_SHARED=0)
 add_definitions(-DSDL_TEST=0)
 
+add_definitions(-DLIBC=ON)
 
-add_executable(${PROJECT_NAME} src/main.cpp)
+# Enable Win32 GUI App on Windows
+set(EXECUTABLE_ARG "")
+if (WIN32)
+    set(EXECUTABLE_ARG "${EXECUTABLE_ARG}WIN32" src/Engine/Math/Vector2.cpp src/Engine/Math/Vector2.h)
+endif()
+add_executable(${PROJECT_NAME} ${EXECUTABLE_ARG} src/Engine/Core/Main.cpp)
 
 #Compiler specific libs
 set(ADDITIONAL_LIBS "")
@@ -27,8 +33,9 @@ if (MINGW)
 elseif(MSVC)
     message("Microsoft Visual Compiler")
     set(ADDITIONAL_LIBS "${ADDITIONAL_LIBS}glu32.lib")
-    #set(CMAKE_CREATE_WIN32_EXE "/SUBSYSTEM:WINDOWS /ENTRY:\"mainCRTStartup\"")
 endif()
 
-target_link_libraries(${PROJECT_NAME} ${OPENGL_gl_LIBRARY} ${ADDITIONAL_LIBS} GLEW SDL2-static SDL2main RapidJSON)
+target_link_libraries(${PROJECT_NAME} ${OPENGL_gl_LIBRARY} ${ADDITIONAL_LIBS} GLEW SDL2main SDL2-static RapidJSON)
 
+# Include directories
+target_include_directories(OpenGLTest PUBLIC src)
