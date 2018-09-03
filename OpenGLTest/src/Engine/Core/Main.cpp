@@ -5,7 +5,8 @@
 #include <vector>
 #include <thread>
 #include <chrono>
-
+#include <Stopwatch.h>
+#include <Vector2.h>
 
 // OpenGL / glew Headers
 #define GL3_PROTOTYPES 1
@@ -18,9 +19,6 @@
 // Rapidjson
 #include "ThirdParty/rapidjson/document.h"
 #include "ThirdParty/rapidjson/filereadstream.h"
-
-// Stopwatch
-#include <Stopwatch.h>
 
 // Our SDL_Window ( just like with SDL2 wihout OpenGL)
 SDL_Window *mainWindow;
@@ -70,8 +68,8 @@ bool Init(const char *wndName)
     auto version = (char*)glGetString(GL_VERSION);
     std::cout << "Started OpenGL " << version << std::endl;
 
-    // This makes our buffer swap syncronized with the monitor's vertical refresh
-    SDL_GL_SetSwapInterval(1);
+    // VSync Off
+    SDL_GL_SetSwapInterval(0);
 
     // Init GLEW
     // Apparently, this is needed for Apple. Thanks to Ross Vander for letting me know
@@ -98,9 +96,6 @@ bool SetOpenGLAttributes()
     SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
     SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE, 24);
 
-    // Disable VSync
-    SDL_GL_SetSwapInterval(0);
-
     return true;
 }
 
@@ -118,6 +113,8 @@ int main(int argc, char *argv[])
     glClearColor(0.7, 0.0, 0.0, 1.0);
     glClear(GL_COLOR_BUFFER_BIT);
     SDL_GL_SwapWindow(mainWindow);
+
+    Vector2& v;
 
     RunGame();
 

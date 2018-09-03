@@ -19,7 +19,7 @@ namespace Engine {
     public:
         Vector2();
         Vector2(float x, float y);
-        Vector2(Vector2 v);
+        Vector2(Vector2& v);
 
         static const Vector2 LEFT;
         static const Vector2 RIGHT;

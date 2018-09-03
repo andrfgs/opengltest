@@ -9,7 +9,7 @@ namespace Engine {
     Vector2::Vector2() : Vector2(0.0f, 0.0f){
     }
 
-    Vector2::Vector2(Engine::Vector2 v) : Vector2(v.m_x, v.m_y){
+    Vector2::Vector2(Engine::Vector2& v) : Vector2(v.m_x, v.m_y){
     }
 
     Vector2::Vector2(float x, float y) {

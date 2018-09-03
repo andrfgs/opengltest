@@ -11,6 +11,8 @@ add_subdirectory(src/ThirdParty/GLEW)
 add_subdirectory(src/ThirdParty/SDL)
 add_subdirectory(src/ThirdParty/rapidjson)
 
+add_subdirectory(src/Engine/Math)
+
 #Link SDL statically
 add_definitions(-DSDL_STATIC=1)
 add_definitions(-DSDL_SHARED=0)
@@ -21,7 +23,7 @@ add_definitions(-DLIBC=ON)
 # Enable Win32 GUI App on Windows
 set(EXECUTABLE_ARG "")
 if (WIN32)
-    set(EXECUTABLE_ARG "${EXECUTABLE_ARG}WIN32" src/Engine/Math/Vector2.cpp src/Engine/Math/Vector2.h)
+    set(EXECUTABLE_ARG "${EXECUTABLE_ARG}WIN32")
 endif()
 add_executable(${PROJECT_NAME} ${EXECUTABLE_ARG} src/Engine/Core/Main.cpp)
 

@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OpenGLTest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\ThirdParty\;CMake Files\src\ThirdParty\GLEW\;CMake Files\src\ThirdParty\SDL\;CMake Files\src\ThirdParty\SDL\cmake\;CMake Files\src\ThirdParty\SDL\include\;CMake Files\src\ThirdParty\rapidjson\;CMake Files\src\Engine\;CMake Files\src\Engine\Math\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGLTest">
+				<Option output="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/OpenGLTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSDL_STATIC=1"/>
+					<Add option="-DSDL_SHARED=0"/>
+					<Add option="-DSDL_TEST=0"/>
+					<Add option="-DLIBC=ON"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/src"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/GLEW/include"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/rapidjson/."/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 OpenGLTest"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGLTest/fast">
+				<Option output="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/OpenGLTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSDL_STATIC=1"/>
+					<Add option="-DSDL_SHARED=0"/>
+					<Add option="-DSDL_TEST=0"/>
+					<Add option="-DLIBC=ON"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/src"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/GLEW/include"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/rapidjson/."/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 OpenGLTest/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 install/local"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 install"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 list_install_components"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLEW">
+				<Option output="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/GLEW/GLEW.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/GLEW"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DVC_EXTRALEAN"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/GLEW/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\GLEW\Makefile VERBOSE=1 GLEW"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\GLEW\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\GLEW\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\GLEW\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLEW/fast">
+				<Option output="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/GLEW/GLEW.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/GLEW"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DVC_EXTRALEAN"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/GLEW/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\GLEW\Makefile VERBOSE=1 GLEW/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\GLEW\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\GLEW\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\GLEW\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2-static">
+				<Option output="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/SDL/SDL2-staticd.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/SDL"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DUSING_GENERATED_CONFIG_H"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/SDL/include"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/include"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/khronos"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 SDL2-static"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2-static/fast">
+				<Option output="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/SDL/SDL2-staticd.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/SDL"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DUSING_GENERATED_CONFIG_H"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/SDL/include"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/include"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/khronos"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 SDL2-static/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2main">
+				<Option output="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/SDL/SDL2maind.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/SDL"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DUSING_GENERATED_CONFIG_H"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/SDL/include"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/include"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/khronos"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 SDL2main"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2main/fast">
+				<Option output="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/SDL/SDL2maind.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/SDL"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DUSING_GENERATED_CONFIG_H"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/SDL/include"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/include"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/khronos"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 SDL2main/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2">
+				<Option output="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/SDL/SDL2d.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/SDL"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DUSING_GENERATED_CONFIG_H"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/SDL/include"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/include"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/khronos"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 SDL2"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2/fast">
+				<Option output="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/SDL/SDL2d.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/SDL"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DUSING_GENERATED_CONFIG_H"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/SDL/include"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/include"/>
+					<Add directory="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/khronos"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 SDL2/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\src\ThirdParty\SDL\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/Engine/Core/Main.cpp">
+			<Option target="OpenGLTest"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/GLEW/src/glew.c">
+			<Option target="GLEW"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/GLEW/src/glewinfo.c">
+			<Option target="GLEW"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/GLEW/src/visualinfo.c">
+			<Option target="GLEW"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/SDL.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/SDL_assert.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/SDL_dataqueue.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/SDL_dataqueue.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/SDL_error.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/SDL_hints.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/SDL_log.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/atomic/SDL_atomic.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/atomic/SDL_spinlock.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/audio/SDL_audio.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/audio/SDL_audiocvt.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/audio/SDL_audiodev.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/audio/SDL_audiotypecvt.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/audio/SDL_mixer.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/audio/SDL_wave.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/audio/SDL_wave.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/audio/directsound/SDL_directsound.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/audio/directsound/SDL_directsound.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/audio/disk/SDL_diskaudio.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/audio/disk/SDL_diskaudio.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/audio/dummy/SDL_dummyaudio.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/audio/dummy/SDL_dummyaudio.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/audio/wasapi/SDL_wasapi.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/audio/wasapi/SDL_wasapi.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/audio/wasapi/SDL_wasapi_win32.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/audio/winmm/SDL_winmm.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/audio/winmm/SDL_winmm.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/core/windows/SDL_windows.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/core/windows/SDL_windows.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/core/windows/SDL_xinput.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/core/windows/SDL_xinput.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/cpuinfo/SDL_cpuinfo.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/dynapi/SDL_dynapi.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/dynapi/SDL_dynapi.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/events/SDL_clipboardevents.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/events/SDL_dropevents.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/events/SDL_events.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/events/SDL_gesture.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/events/SDL_keyboard.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/events/SDL_mouse.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/events/SDL_quit.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/events/SDL_touch.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/events/SDL_windowevents.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/file/SDL_rwops.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/filesystem/windows/SDL_sysfilesystem.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/haptic/SDL_haptic.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/haptic/windows/SDL_dinputhaptic.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/haptic/windows/SDL_windowshaptic.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/haptic/windows/SDL_xinputhaptic.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/joystick/SDL_gamecontroller.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/joystick/SDL_joystick.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/joystick/windows/SDL_dinputjoystick.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/joystick/windows/SDL_mmjoystick.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/joystick/windows/SDL_windowsjoystick.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/joystick/windows/SDL_xinputjoystick.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/libm/e_atan2.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/libm/e_fmod.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/libm/e_log.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/libm/e_log10.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/libm/e_pow.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/libm/e_rem_pio2.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/libm/e_sqrt.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/libm/k_cos.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/libm/k_rem_pio2.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/libm/k_sin.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/libm/k_tan.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/libm/s_atan.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/libm/s_copysign.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/libm/s_cos.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/libm/s_fabs.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/libm/s_floor.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/libm/s_scalbn.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/libm/s_sin.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/libm/s_tan.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/loadso/windows/SDL_sysloadso.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/main/windows/SDL_windows_main.c">
+			<Option target="SDL2main"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/main/windows/version.rc">
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/power/SDL_power.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/power/windows/SDL_syspower.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/SDL_d3dmath.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/SDL_d3dmath.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/SDL_render.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/SDL_yuv_sw.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/direct3d/SDL_render_d3d.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/direct3d/SDL_shaders_d3d.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/direct3d/SDL_shaders_d3d.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/direct3d11/SDL_render_d3d11.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/direct3d11/SDL_shaders_d3d11.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/direct3d11/SDL_shaders_d3d11.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/opengl/SDL_render_gl.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/opengl/SDL_shaders_gl.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/opengl/SDL_shaders_gl.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/opengles/SDL_render_gles.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/opengles2/SDL_render_gles2.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/opengles2/SDL_shaders_gles2.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/opengles2/SDL_shaders_gles2.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/psp/SDL_render_psp.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/software/SDL_blendfillrect.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/software/SDL_blendfillrect.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/software/SDL_blendline.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/software/SDL_blendline.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/software/SDL_blendpoint.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/software/SDL_blendpoint.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/software/SDL_drawline.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/software/SDL_drawline.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/software/SDL_drawpoint.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/software/SDL_drawpoint.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/software/SDL_render_sw.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/software/SDL_rotate.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/render/software/SDL_rotate.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/stdlib/SDL_getenv.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/stdlib/SDL_iconv.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/stdlib/SDL_malloc.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/stdlib/SDL_qsort.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/stdlib/SDL_stdlib.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/stdlib/SDL_string.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/thread/SDL_thread.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/thread/generic/SDL_syscond.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/thread/windows/SDL_sysmutex.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/thread/windows/SDL_syssem.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/thread/windows/SDL_systhread.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/thread/windows/SDL_systls.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/timer/SDL_timer.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/timer/windows/SDL_systimer.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_RLEaccel.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_blit.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_blit.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_blit_0.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_blit_1.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_blit_A.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_blit_N.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_blit_auto.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_blit_auto.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_blit_copy.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_blit_copy.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_blit_slow.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_blit_slow.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_bmp.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_clipboard.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_egl.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_fillrect.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_pixels.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_rect.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_shape.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_stretch.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_surface.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_video.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_vulkan_utils.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/SDL_yuv.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/dummy/SDL_nullevents.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/dummy/SDL_nullframebuffer.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/dummy/SDL_nullvideo.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/dummy/SDL_nullvideo.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowsclipboard.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowsclipboard.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowsevents.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowsevents.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowsframebuffer.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowsframebuffer.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowskeyboard.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowskeyboard.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowsmessagebox.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowsmessagebox.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowsmodes.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowsmodes.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowsmouse.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowsmouse.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowsopengl.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowsopengl.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowsopengles.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowsopengles.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowsshape.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowsshape.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowsvideo.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowsvideo.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowsvulkan.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowsvulkan.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowswindow.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/windows/SDL_windowswindow.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/yuv2rgb/yuv_rgb.c">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/src/video/yuv2rgb/yuv_rgb.h">
+			<Option target="SDL2-static"/>
+			<Option target="SDL2"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/GLEW/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ThirdParty\GLEW\"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ThirdParty\SDL\"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/cmake/macros.cmake">
+			<Option virtualFolder="CMake Files\src\ThirdParty\SDL\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/cmake/sdlchecks.cmake">
+			<Option virtualFolder="CMake Files\src\ThirdParty\SDL\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/SDL/include/SDL_config.h.cmake">
+			<Option virtualFolder="CMake Files\src\ThirdParty\SDL\include\"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/ThirdParty/rapidjson/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ThirdParty\rapidjson\"/>
+		</Unit>
+		<Unit filename="C:/Users/and_s/opengltest/OpenGLTest/src/Engine/Math/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\Engine\Math\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
