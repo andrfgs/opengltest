@@ -1,0 +1,9 @@
+add_definitions (-DGLEW_STATIC -DGLEW_NO_GLU)
+
+include_directories(include)
+
+add_library(GLEW STATIC
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/glew.c
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/glewinfo.c
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/visualinfo.c
+        )

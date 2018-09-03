@@ -44,10 +44,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\and_s\opengltest\OpenGLTest
+CMAKE_SOURCE_DIR = C:\Users\and_s\CLionProjects\OpenGLTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\OpenGLTest.dir\depend.make
@@ -58,52 +58,52 @@ include CMakeFiles\OpenGLTest.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\OpenGLTest.dir\flags.make
 
-CMakeFiles\OpenGLTest.dir\src\Engine\Core\Main.cpp.obj: CMakeFiles\OpenGLTest.dir\flags.make
-CMakeFiles\OpenGLTest.dir\src\Engine\Core\Main.cpp.obj: ..\src\Engine\Core\Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGLTest.dir/src/Engine/Core/Main.cpp.obj"
+CMakeFiles\OpenGLTest.dir\src\main.cpp.obj: CMakeFiles\OpenGLTest.dir\flags.make
+CMakeFiles\OpenGLTest.dir\src\main.cpp.obj: ..\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGLTest.dir/src/main.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\OpenGLTest.dir\src\Engine\Core\Main.cpp.obj /FdCMakeFiles\OpenGLTest.dir\ /FS -c C:\Users\and_s\opengltest\OpenGLTest\src\Engine\Core\Main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\OpenGLTest.dir\src\main.cpp.obj /FdCMakeFiles\OpenGLTest.dir\ /FS -c C:\Users\and_s\CLionProjects\OpenGLTest\src\main.cpp
 <<
 
-CMakeFiles\OpenGLTest.dir\src\Engine\Core\Main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLTest.dir/src/Engine/Core/Main.cpp.i"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe > CMakeFiles\OpenGLTest.dir\src\Engine\Core\Main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\and_s\opengltest\OpenGLTest\src\Engine\Core\Main.cpp
+CMakeFiles\OpenGLTest.dir\src\main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLTest.dir/src/main.cpp.i"
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe > CMakeFiles\OpenGLTest.dir\src\main.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\and_s\CLionProjects\OpenGLTest\src\main.cpp
 <<
 
-CMakeFiles\OpenGLTest.dir\src\Engine\Core\Main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLTest.dir/src/Engine/Core/Main.cpp.s"
+CMakeFiles\OpenGLTest.dir\src\main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLTest.dir/src/main.cpp.s"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\OpenGLTest.dir\src\Engine\Core\Main.cpp.s /c C:\Users\and_s\opengltest\OpenGLTest\src\Engine\Core\Main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\OpenGLTest.dir\src\main.cpp.s /c C:\Users\and_s\CLionProjects\OpenGLTest\src\main.cpp
 <<
 
-CMakeFiles\OpenGLTest.dir\src\Engine\Core\Main.cpp.obj.requires:
+CMakeFiles\OpenGLTest.dir\src\main.cpp.obj.requires:
 
-.PHONY : CMakeFiles\OpenGLTest.dir\src\Engine\Core\Main.cpp.obj.requires
+.PHONY : CMakeFiles\OpenGLTest.dir\src\main.cpp.obj.requires
 
-CMakeFiles\OpenGLTest.dir\src\Engine\Core\Main.cpp.obj.provides: CMakeFiles\OpenGLTest.dir\src\Engine\Core\Main.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\OpenGLTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGLTest.dir\src\Engine\Core\Main.cpp.obj.provides.build
-.PHONY : CMakeFiles\OpenGLTest.dir\src\Engine\Core\Main.cpp.obj.provides
+CMakeFiles\OpenGLTest.dir\src\main.cpp.obj.provides: CMakeFiles\OpenGLTest.dir\src\main.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\OpenGLTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGLTest.dir\src\main.cpp.obj.provides.build
+.PHONY : CMakeFiles\OpenGLTest.dir\src\main.cpp.obj.provides
 
-CMakeFiles\OpenGLTest.dir\src\Engine\Core\Main.cpp.obj.provides.build: CMakeFiles\OpenGLTest.dir\src\Engine\Core\Main.cpp.obj
+CMakeFiles\OpenGLTest.dir\src\main.cpp.obj.provides.build: CMakeFiles\OpenGLTest.dir\src\main.cpp.obj
 
 
 # Object files for target OpenGLTest
 OpenGLTest_OBJECTS = \
-"CMakeFiles\OpenGLTest.dir\src\Engine\Core\Main.cpp.obj"
+"CMakeFiles\OpenGLTest.dir\src\main.cpp.obj"
 
 # External object files for target OpenGLTest
 OpenGLTest_EXTERNAL_OBJECTS =
 
-OpenGLTest.exe: CMakeFiles\OpenGLTest.dir\src\Engine\Core\Main.cpp.obj
+OpenGLTest.exe: CMakeFiles\OpenGLTest.dir\src\main.cpp.obj
 OpenGLTest.exe: CMakeFiles\OpenGLTest.dir\build.make
-OpenGLTest.exe: src\ThirdParty\GLEW\GLEW.lib
-OpenGLTest.exe: src\ThirdParty\SDL\SDL2maind.lib
-OpenGLTest.exe: src\ThirdParty\SDL\SDL2-staticd.lib
+OpenGLTest.exe: ThirdParty\GLEW\GLEW.lib
+OpenGLTest.exe: ThirdParty\SDL\SDL2maind.lib
+OpenGLTest.exe: ThirdParty\SDL\SDL2-staticd.lib
 OpenGLTest.exe: CMakeFiles\OpenGLTest.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable OpenGLTest.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable OpenGLTest.exe"
 	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\OpenGLTest.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\OpenGLTest.dir\objects1.rsp @<<
- /out:OpenGLTest.exe /implib:OpenGLTest.lib /pdb:C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\OpenGLTest.pdb /version:0.0  /machine:x64 /debug /INCREMENTAL /subsystem:windows opengl32.lib glu32.lib src\ThirdParty\GLEW\GLEW.lib src\ThirdParty\SDL\SDL2maind.lib src\ThirdParty\SDL\SDL2-staticd.lib user32.lib gdi32.lib winmm.lib imm32.lib ole32.lib oleaut32.lib version.lib uuid.lib dinput8.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:OpenGLTest.exe /implib:OpenGLTest.lib /pdb:C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\OpenGLTest.pdb /version:0.0  /machine:x64 /debug /INCREMENTAL /subsystem:console opengl32.lib glu32.lib gdi32.lib ThirdParty\GLEW\GLEW.lib ThirdParty\SDL\SDL2maind.lib ThirdParty\SDL\SDL2-staticd.lib user32.lib gdi32.lib winmm.lib imm32.lib ole32.lib oleaut32.lib version.lib uuid.lib dinput8.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -111,7 +111,7 @@ CMakeFiles\OpenGLTest.dir\build: OpenGLTest.exe
 
 .PHONY : CMakeFiles\OpenGLTest.dir\build
 
-CMakeFiles\OpenGLTest.dir\requires: CMakeFiles\OpenGLTest.dir\src\Engine\Core\Main.cpp.obj.requires
+CMakeFiles\OpenGLTest.dir\requires: CMakeFiles\OpenGLTest.dir\src\main.cpp.obj.requires
 
 .PHONY : CMakeFiles\OpenGLTest.dir\requires
 
@@ -120,6 +120,6 @@ CMakeFiles\OpenGLTest.dir\clean:
 .PHONY : CMakeFiles\OpenGLTest.dir\clean
 
 CMakeFiles\OpenGLTest.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\and_s\opengltest\OpenGLTest C:\Users\and_s\opengltest\OpenGLTest C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\CMakeFiles\OpenGLTest.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\and_s\CLionProjects\OpenGLTest C:\Users\and_s\CLionProjects\OpenGLTest C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles\OpenGLTest.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\OpenGLTest.dir\depend
 

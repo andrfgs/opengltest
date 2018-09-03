@@ -48,17 +48,15 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2018.1.2/bin/cmake/share/cmake-3.10/Modules/ProcessorCount.cmake"
   "C:/Program Files/JetBrains/CLion 2018.1.2/bin/cmake/share/cmake-3.10/Modules/WriteBasicConfigVersionFile.cmake"
   "../CMakeLists.txt"
+  "../ThirdParty/GLEW/CMakeLists.txt"
+  "../ThirdParty/SDL/CMakeLists.txt"
+  "../ThirdParty/SDL/cmake/macros.cmake"
+  "../ThirdParty/SDL/cmake/sdlchecks.cmake"
+  "../ThirdParty/SDL/include/SDL_config.h.cmake"
   "CMakeFiles/3.10.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.3/CMakeRCCompiler.cmake"
   "CMakeFiles/3.10.3/CMakeSystem.cmake"
-  "../src/Engine/Math/CMakeLists.txt"
-  "../src/ThirdParty/GLEW/CMakeLists.txt"
-  "../src/ThirdParty/SDL/CMakeLists.txt"
-  "../src/ThirdParty/SDL/cmake/macros.cmake"
-  "../src/ThirdParty/SDL/cmake/sdlchecks.cmake"
-  "../src/ThirdParty/SDL/include/SDL_config.h.cmake"
-  "../src/ThirdParty/rapidjson/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -70,17 +68,15 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/ThirdParty/GLEW/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/ThirdParty/SDL/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/ThirdParty/rapidjson/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/Engine/Math/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "ThirdParty/GLEW/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "ThirdParty/SDL/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/OpenGLTest.dir/DependInfo.cmake"
-  "src/ThirdParty/GLEW/CMakeFiles/GLEW.dir/DependInfo.cmake"
-  "src/ThirdParty/SDL/CMakeFiles/SDL2-static.dir/DependInfo.cmake"
-  "src/ThirdParty/SDL/CMakeFiles/SDL2main.dir/DependInfo.cmake"
-  "src/ThirdParty/SDL/CMakeFiles/SDL2.dir/DependInfo.cmake"
+  "ThirdParty/GLEW/CMakeFiles/GLEW.dir/DependInfo.cmake"
+  "ThirdParty/SDL/CMakeFiles/SDL2-static.dir/DependInfo.cmake"
+  "ThirdParty/SDL/CMakeFiles/SDL2main.dir/DependInfo.cmake"
+  "ThirdParty/SDL/CMakeFiles/SDL2.dir/DependInfo.cmake"
   )

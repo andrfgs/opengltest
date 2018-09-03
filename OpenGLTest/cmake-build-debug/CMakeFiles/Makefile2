@@ -55,21 +55,21 @@ RM = "C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\and_s\opengltest\OpenGLTest
+CMAKE_SOURCE_DIR = C:\Users\and_s\CLionProjects\OpenGLTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/OpenGLTest.dir
 
 # All Build rule for target.
-CMakeFiles\OpenGLTest.dir\all: src\ThirdParty\GLEW\CMakeFiles\GLEW.dir\all
-CMakeFiles\OpenGLTest.dir\all: src\ThirdParty\SDL\CMakeFiles\SDL2-static.dir\all
-CMakeFiles\OpenGLTest.dir\all: src\ThirdParty\SDL\CMakeFiles\SDL2main.dir\all
+CMakeFiles\OpenGLTest.dir\all: ThirdParty\GLEW\CMakeFiles\GLEW.dir\all
+CMakeFiles\OpenGLTest.dir\all: ThirdParty\SDL\CMakeFiles\SDL2main.dir\all
+CMakeFiles\OpenGLTest.dir\all: ThirdParty\SDL\CMakeFiles\SDL2-static.dir\all
 	$(MAKE) -f CMakeFiles\OpenGLTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGLTest.dir\depend
 	$(MAKE) -f CMakeFiles\OpenGLTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGLTest.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\CMakeFiles --progress-num=2 "Built target OpenGLTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles --progress-num=2 "Built target OpenGLTest"
 .PHONY : CMakeFiles\OpenGLTest.dir\all
 
 # Include target in all.
@@ -79,9 +79,9 @@ all: CMakeFiles\OpenGLTest.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\OpenGLTest.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles 52
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\OpenGLTest.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\OpenGLTest.dir\rule
 
 # Convenience name for target.
@@ -100,228 +100,192 @@ clean: CMakeFiles\OpenGLTest.dir\clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory src\ThirdParty\GLEW
+# Directory level rules for directory ThirdParty\GLEW
 
 # Convenience name for "all" pass in the directory.
-src\ThirdParty\GLEW\all: src\ThirdParty\GLEW\CMakeFiles\GLEW.dir\all
+ThirdParty\GLEW\all: ThirdParty\GLEW\CMakeFiles\GLEW.dir\all
 
-.PHONY : src\ThirdParty\GLEW\all
+.PHONY : ThirdParty\GLEW\all
 
 # Convenience name for "clean" pass in the directory.
-src\ThirdParty\GLEW\clean: src\ThirdParty\GLEW\CMakeFiles\GLEW.dir\clean
+ThirdParty\GLEW\clean: ThirdParty\GLEW\CMakeFiles\GLEW.dir\clean
 
-.PHONY : src\ThirdParty\GLEW\clean
+.PHONY : ThirdParty\GLEW\clean
 
 # Convenience name for "preinstall" pass in the directory.
-src\ThirdParty\GLEW\preinstall:
+ThirdParty\GLEW\preinstall:
 
-.PHONY : src\ThirdParty\GLEW\preinstall
+.PHONY : ThirdParty\GLEW\preinstall
 
 #=============================================================================
-# Target rules for target src/ThirdParty/GLEW/CMakeFiles/GLEW.dir
+# Target rules for target ThirdParty/GLEW/CMakeFiles/GLEW.dir
 
 # All Build rule for target.
-src\ThirdParty\GLEW\CMakeFiles\GLEW.dir\all:
-	$(MAKE) -f src\ThirdParty\GLEW\CMakeFiles\GLEW.dir\build.make /nologo -$(MAKEFLAGS) src\ThirdParty\GLEW\CMakeFiles\GLEW.dir\depend
-	$(MAKE) -f src\ThirdParty\GLEW\CMakeFiles\GLEW.dir\build.make /nologo -$(MAKEFLAGS) src\ThirdParty\GLEW\CMakeFiles\GLEW.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\CMakeFiles --progress-num=1 "Built target GLEW"
-.PHONY : src\ThirdParty\GLEW\CMakeFiles\GLEW.dir\all
+ThirdParty\GLEW\CMakeFiles\GLEW.dir\all:
+	$(MAKE) -f ThirdParty\GLEW\CMakeFiles\GLEW.dir\build.make /nologo -$(MAKEFLAGS) ThirdParty\GLEW\CMakeFiles\GLEW.dir\depend
+	$(MAKE) -f ThirdParty\GLEW\CMakeFiles\GLEW.dir\build.make /nologo -$(MAKEFLAGS) ThirdParty\GLEW\CMakeFiles\GLEW.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles --progress-num=1 "Built target GLEW"
+.PHONY : ThirdParty\GLEW\CMakeFiles\GLEW.dir\all
 
 # Include target in all.
-all: src\ThirdParty\GLEW\CMakeFiles\GLEW.dir\all
+all: ThirdParty\GLEW\CMakeFiles\GLEW.dir\all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-src\ThirdParty\GLEW\CMakeFiles\GLEW.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\CMakeFiles 1
-	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) src\ThirdParty\GLEW\CMakeFiles\GLEW.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\CMakeFiles 0
-.PHONY : src\ThirdParty\GLEW\CMakeFiles\GLEW.dir\rule
+ThirdParty\GLEW\CMakeFiles\GLEW.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles 1
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ThirdParty\GLEW\CMakeFiles\GLEW.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles 0
+.PHONY : ThirdParty\GLEW\CMakeFiles\GLEW.dir\rule
 
 # Convenience name for target.
-GLEW: src\ThirdParty\GLEW\CMakeFiles\GLEW.dir\rule
+GLEW: ThirdParty\GLEW\CMakeFiles\GLEW.dir\rule
 
 .PHONY : GLEW
 
 # clean rule for target.
-src\ThirdParty\GLEW\CMakeFiles\GLEW.dir\clean:
-	$(MAKE) -f src\ThirdParty\GLEW\CMakeFiles\GLEW.dir\build.make /nologo -$(MAKEFLAGS) src\ThirdParty\GLEW\CMakeFiles\GLEW.dir\clean
-.PHONY : src\ThirdParty\GLEW\CMakeFiles\GLEW.dir\clean
+ThirdParty\GLEW\CMakeFiles\GLEW.dir\clean:
+	$(MAKE) -f ThirdParty\GLEW\CMakeFiles\GLEW.dir\build.make /nologo -$(MAKEFLAGS) ThirdParty\GLEW\CMakeFiles\GLEW.dir\clean
+.PHONY : ThirdParty\GLEW\CMakeFiles\GLEW.dir\clean
 
 # clean rule for target.
-clean: src\ThirdParty\GLEW\CMakeFiles\GLEW.dir\clean
+clean: ThirdParty\GLEW\CMakeFiles\GLEW.dir\clean
 
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory src\ThirdParty\SDL
+# Directory level rules for directory ThirdParty\SDL
 
 # Convenience name for "all" pass in the directory.
-src\ThirdParty\SDL\all: src\ThirdParty\SDL\CMakeFiles\SDL2-static.dir\all
-src\ThirdParty\SDL\all: src\ThirdParty\SDL\CMakeFiles\SDL2main.dir\all
-src\ThirdParty\SDL\all: src\ThirdParty\SDL\CMakeFiles\SDL2.dir\all
+ThirdParty\SDL\all: ThirdParty\SDL\CMakeFiles\SDL2-static.dir\all
+ThirdParty\SDL\all: ThirdParty\SDL\CMakeFiles\SDL2main.dir\all
+ThirdParty\SDL\all: ThirdParty\SDL\CMakeFiles\SDL2.dir\all
 
-.PHONY : src\ThirdParty\SDL\all
+.PHONY : ThirdParty\SDL\all
 
 # Convenience name for "clean" pass in the directory.
-src\ThirdParty\SDL\clean: src\ThirdParty\SDL\CMakeFiles\SDL2-static.dir\clean
-src\ThirdParty\SDL\clean: src\ThirdParty\SDL\CMakeFiles\SDL2main.dir\clean
-src\ThirdParty\SDL\clean: src\ThirdParty\SDL\CMakeFiles\SDL2.dir\clean
+ThirdParty\SDL\clean: ThirdParty\SDL\CMakeFiles\SDL2-static.dir\clean
+ThirdParty\SDL\clean: ThirdParty\SDL\CMakeFiles\SDL2main.dir\clean
+ThirdParty\SDL\clean: ThirdParty\SDL\CMakeFiles\SDL2.dir\clean
 
-.PHONY : src\ThirdParty\SDL\clean
+.PHONY : ThirdParty\SDL\clean
 
 # Convenience name for "preinstall" pass in the directory.
-src\ThirdParty\SDL\preinstall:
+ThirdParty\SDL\preinstall:
 
-.PHONY : src\ThirdParty\SDL\preinstall
+.PHONY : ThirdParty\SDL\preinstall
 
 #=============================================================================
-# Target rules for target src/ThirdParty/SDL/CMakeFiles/SDL2-static.dir
+# Target rules for target ThirdParty/SDL/CMakeFiles/SDL2-static.dir
 
 # All Build rule for target.
-src\ThirdParty\SDL\CMakeFiles\SDL2-static.dir\all:
-	$(MAKE) -f src\ThirdParty\SDL\CMakeFiles\SDL2-static.dir\build.make /nologo -$(MAKEFLAGS) src\ThirdParty\SDL\CMakeFiles\SDL2-static.dir\depend
-	$(MAKE) -f src\ThirdParty\SDL\CMakeFiles\SDL2-static.dir\build.make /nologo -$(MAKEFLAGS) src\ThirdParty\SDL\CMakeFiles\SDL2-static.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\CMakeFiles --progress-num=51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99 "Built target SDL2-static"
-.PHONY : src\ThirdParty\SDL\CMakeFiles\SDL2-static.dir\all
+ThirdParty\SDL\CMakeFiles\SDL2-static.dir\all:
+	$(MAKE) -f ThirdParty\SDL\CMakeFiles\SDL2-static.dir\build.make /nologo -$(MAKEFLAGS) ThirdParty\SDL\CMakeFiles\SDL2-static.dir\depend
+	$(MAKE) -f ThirdParty\SDL\CMakeFiles\SDL2-static.dir\build.make /nologo -$(MAKEFLAGS) ThirdParty\SDL\CMakeFiles\SDL2-static.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles --progress-num=51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99 "Built target SDL2-static"
+.PHONY : ThirdParty\SDL\CMakeFiles\SDL2-static.dir\all
 
 # Include target in all.
-all: src\ThirdParty\SDL\CMakeFiles\SDL2-static.dir\all
+all: ThirdParty\SDL\CMakeFiles\SDL2-static.dir\all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-src\ThirdParty\SDL\CMakeFiles\SDL2-static.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\CMakeFiles 49
-	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) src\ThirdParty\SDL\CMakeFiles\SDL2-static.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\CMakeFiles 0
-.PHONY : src\ThirdParty\SDL\CMakeFiles\SDL2-static.dir\rule
+ThirdParty\SDL\CMakeFiles\SDL2-static.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles 49
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ThirdParty\SDL\CMakeFiles\SDL2-static.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles 0
+.PHONY : ThirdParty\SDL\CMakeFiles\SDL2-static.dir\rule
 
 # Convenience name for target.
-SDL2-static: src\ThirdParty\SDL\CMakeFiles\SDL2-static.dir\rule
+SDL2-static: ThirdParty\SDL\CMakeFiles\SDL2-static.dir\rule
 
 .PHONY : SDL2-static
 
 # clean rule for target.
-src\ThirdParty\SDL\CMakeFiles\SDL2-static.dir\clean:
-	$(MAKE) -f src\ThirdParty\SDL\CMakeFiles\SDL2-static.dir\build.make /nologo -$(MAKEFLAGS) src\ThirdParty\SDL\CMakeFiles\SDL2-static.dir\clean
-.PHONY : src\ThirdParty\SDL\CMakeFiles\SDL2-static.dir\clean
+ThirdParty\SDL\CMakeFiles\SDL2-static.dir\clean:
+	$(MAKE) -f ThirdParty\SDL\CMakeFiles\SDL2-static.dir\build.make /nologo -$(MAKEFLAGS) ThirdParty\SDL\CMakeFiles\SDL2-static.dir\clean
+.PHONY : ThirdParty\SDL\CMakeFiles\SDL2-static.dir\clean
 
 # clean rule for target.
-clean: src\ThirdParty\SDL\CMakeFiles\SDL2-static.dir\clean
+clean: ThirdParty\SDL\CMakeFiles\SDL2-static.dir\clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target src/ThirdParty/SDL/CMakeFiles/SDL2main.dir
+# Target rules for target ThirdParty/SDL/CMakeFiles/SDL2main.dir
 
 # All Build rule for target.
-src\ThirdParty\SDL\CMakeFiles\SDL2main.dir\all:
-	$(MAKE) -f src\ThirdParty\SDL\CMakeFiles\SDL2main.dir\build.make /nologo -$(MAKEFLAGS) src\ThirdParty\SDL\CMakeFiles\SDL2main.dir\depend
-	$(MAKE) -f src\ThirdParty\SDL\CMakeFiles\SDL2main.dir\build.make /nologo -$(MAKEFLAGS) src\ThirdParty\SDL\CMakeFiles\SDL2main.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\CMakeFiles --progress-num=100 "Built target SDL2main"
-.PHONY : src\ThirdParty\SDL\CMakeFiles\SDL2main.dir\all
+ThirdParty\SDL\CMakeFiles\SDL2main.dir\all:
+	$(MAKE) -f ThirdParty\SDL\CMakeFiles\SDL2main.dir\build.make /nologo -$(MAKEFLAGS) ThirdParty\SDL\CMakeFiles\SDL2main.dir\depend
+	$(MAKE) -f ThirdParty\SDL\CMakeFiles\SDL2main.dir\build.make /nologo -$(MAKEFLAGS) ThirdParty\SDL\CMakeFiles\SDL2main.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles --progress-num=100 "Built target SDL2main"
+.PHONY : ThirdParty\SDL\CMakeFiles\SDL2main.dir\all
 
 # Include target in all.
-all: src\ThirdParty\SDL\CMakeFiles\SDL2main.dir\all
+all: ThirdParty\SDL\CMakeFiles\SDL2main.dir\all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-src\ThirdParty\SDL\CMakeFiles\SDL2main.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\CMakeFiles 1
-	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) src\ThirdParty\SDL\CMakeFiles\SDL2main.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\CMakeFiles 0
-.PHONY : src\ThirdParty\SDL\CMakeFiles\SDL2main.dir\rule
+ThirdParty\SDL\CMakeFiles\SDL2main.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles 1
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ThirdParty\SDL\CMakeFiles\SDL2main.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles 0
+.PHONY : ThirdParty\SDL\CMakeFiles\SDL2main.dir\rule
 
 # Convenience name for target.
-SDL2main: src\ThirdParty\SDL\CMakeFiles\SDL2main.dir\rule
+SDL2main: ThirdParty\SDL\CMakeFiles\SDL2main.dir\rule
 
 .PHONY : SDL2main
 
 # clean rule for target.
-src\ThirdParty\SDL\CMakeFiles\SDL2main.dir\clean:
-	$(MAKE) -f src\ThirdParty\SDL\CMakeFiles\SDL2main.dir\build.make /nologo -$(MAKEFLAGS) src\ThirdParty\SDL\CMakeFiles\SDL2main.dir\clean
-.PHONY : src\ThirdParty\SDL\CMakeFiles\SDL2main.dir\clean
+ThirdParty\SDL\CMakeFiles\SDL2main.dir\clean:
+	$(MAKE) -f ThirdParty\SDL\CMakeFiles\SDL2main.dir\build.make /nologo -$(MAKEFLAGS) ThirdParty\SDL\CMakeFiles\SDL2main.dir\clean
+.PHONY : ThirdParty\SDL\CMakeFiles\SDL2main.dir\clean
 
 # clean rule for target.
-clean: src\ThirdParty\SDL\CMakeFiles\SDL2main.dir\clean
+clean: ThirdParty\SDL\CMakeFiles\SDL2main.dir\clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target src/ThirdParty/SDL/CMakeFiles/SDL2.dir
+# Target rules for target ThirdParty/SDL/CMakeFiles/SDL2.dir
 
 # All Build rule for target.
-src\ThirdParty\SDL\CMakeFiles\SDL2.dir\all:
-	$(MAKE) -f src\ThirdParty\SDL\CMakeFiles\SDL2.dir\build.make /nologo -$(MAKEFLAGS) src\ThirdParty\SDL\CMakeFiles\SDL2.dir\depend
-	$(MAKE) -f src\ThirdParty\SDL\CMakeFiles\SDL2.dir\build.make /nologo -$(MAKEFLAGS) src\ThirdParty\SDL\CMakeFiles\SDL2.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50 "Built target SDL2"
-.PHONY : src\ThirdParty\SDL\CMakeFiles\SDL2.dir\all
+ThirdParty\SDL\CMakeFiles\SDL2.dir\all:
+	$(MAKE) -f ThirdParty\SDL\CMakeFiles\SDL2.dir\build.make /nologo -$(MAKEFLAGS) ThirdParty\SDL\CMakeFiles\SDL2.dir\depend
+	$(MAKE) -f ThirdParty\SDL\CMakeFiles\SDL2.dir\build.make /nologo -$(MAKEFLAGS) ThirdParty\SDL\CMakeFiles\SDL2.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50 "Built target SDL2"
+.PHONY : ThirdParty\SDL\CMakeFiles\SDL2.dir\all
 
 # Include target in all.
-all: src\ThirdParty\SDL\CMakeFiles\SDL2.dir\all
+all: ThirdParty\SDL\CMakeFiles\SDL2.dir\all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-src\ThirdParty\SDL\CMakeFiles\SDL2.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\CMakeFiles 48
-	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) src\ThirdParty\SDL\CMakeFiles\SDL2.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\CMakeFiles 0
-.PHONY : src\ThirdParty\SDL\CMakeFiles\SDL2.dir\rule
+ThirdParty\SDL\CMakeFiles\SDL2.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles 48
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ThirdParty\SDL\CMakeFiles\SDL2.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles 0
+.PHONY : ThirdParty\SDL\CMakeFiles\SDL2.dir\rule
 
 # Convenience name for target.
-SDL2: src\ThirdParty\SDL\CMakeFiles\SDL2.dir\rule
+SDL2: ThirdParty\SDL\CMakeFiles\SDL2.dir\rule
 
 .PHONY : SDL2
 
 # clean rule for target.
-src\ThirdParty\SDL\CMakeFiles\SDL2.dir\clean:
-	$(MAKE) -f src\ThirdParty\SDL\CMakeFiles\SDL2.dir\build.make /nologo -$(MAKEFLAGS) src\ThirdParty\SDL\CMakeFiles\SDL2.dir\clean
-.PHONY : src\ThirdParty\SDL\CMakeFiles\SDL2.dir\clean
+ThirdParty\SDL\CMakeFiles\SDL2.dir\clean:
+	$(MAKE) -f ThirdParty\SDL\CMakeFiles\SDL2.dir\build.make /nologo -$(MAKEFLAGS) ThirdParty\SDL\CMakeFiles\SDL2.dir\clean
+.PHONY : ThirdParty\SDL\CMakeFiles\SDL2.dir\clean
 
 # clean rule for target.
-clean: src\ThirdParty\SDL\CMakeFiles\SDL2.dir\clean
+clean: ThirdParty\SDL\CMakeFiles\SDL2.dir\clean
 
 .PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory src\ThirdParty\rapidjson
-
-# Convenience name for "all" pass in the directory.
-src\ThirdParty\rapidjson\all:
-
-.PHONY : src\ThirdParty\rapidjson\all
-
-# Convenience name for "clean" pass in the directory.
-src\ThirdParty\rapidjson\clean:
-
-.PHONY : src\ThirdParty\rapidjson\clean
-
-# Convenience name for "preinstall" pass in the directory.
-src\ThirdParty\rapidjson\preinstall:
-
-.PHONY : src\ThirdParty\rapidjson\preinstall
-
-#=============================================================================
-# Directory level rules for directory src\Engine\Math
-
-# Convenience name for "all" pass in the directory.
-src\Engine\Math\all:
-
-.PHONY : src\Engine\Math\all
-
-# Convenience name for "clean" pass in the directory.
-src\Engine\Math\clean:
-
-.PHONY : src\Engine\Math\clean
-
-# Convenience name for "preinstall" pass in the directory.
-src\Engine\Math\preinstall:
-
-.PHONY : src\Engine\Math\preinstall
 
 #=============================================================================
 # Special targets to cleanup operation of make.

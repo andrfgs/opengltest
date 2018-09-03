@@ -21,7 +21,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
-The C compiler identification is MSVC, found in "C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/CMakeCCompilerId.exe"
+The C compiler identification is MSVC, found in "C:/Users/and_s/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/CMakeCCompilerId.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.13.26128/bin/Hostx64/x64/cl.exe 
@@ -45,68 +45,68 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
 
-The CXX compiler identification is MSVC, found in "C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/CMakeCXXCompilerId.exe"
+The CXX compiler identification is MSVC, found in "C:/Users/and_s/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/CMakeCXXCompilerId.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/and_s/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_2760c\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_2760c.dir\build.make /nologo -L                  CMakeFiles\cmTC_2760c.dir\build
-Building C object CMakeFiles/cmTC_2760c.dir/testCCompiler.c.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nmA2AC.tmp
+Run Build Command:"nmake" "/NOLOGO" "cmTC_bbcb3\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_bbcb3.dir\build.make /nologo -L                  CMakeFiles\cmTC_bbcb3.dir\build
+Building C object CMakeFiles/cmTC_bbcb3.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nm41C4.tmp
 testCCompiler.c
-Linking C executable cmTC_2760c.exe
-	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_2760c.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_2760c.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nmA434.tmp
+Linking C executable cmTC_bbcb3.exe
+	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_bbcb3.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_bbcb3.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nm4242.tmp
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/and_s/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_634be\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_634be.dir\build.make /nologo -L                  CMakeFiles\cmTC_634be.dir\build
-Building C object CMakeFiles/cmTC_634be.dir/CMakeCCompilerABI.c.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nmA76F.tmp
+Run Build Command:"nmake" "/NOLOGO" "cmTC_fe7fd\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_fe7fd.dir\build.make /nologo -L                  CMakeFiles\cmTC_fe7fd.dir\build
+Building C object CMakeFiles/cmTC_fe7fd.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nm45CC.tmp
 CMakeCCompilerABI.c
-Linking C executable cmTC_634be.exe
-	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_634be.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_634be.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nmA7FD.tmp
+Linking C executable cmTC_fe7fd.exe
+	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_fe7fd.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_fe7fd.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nm464A.tmp
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/and_s/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_0f4c0\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_0f4c0.dir\build.make /nologo -L                  CMakeFiles\cmTC_0f4c0.dir\build
-Building CXX object CMakeFiles/cmTC_0f4c0.dir/testCXXCompiler.cxx.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nmAB28.tmp
+Run Build Command:"nmake" "/NOLOGO" "cmTC_3b488\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_3b488.dir\build.make /nologo -L                  CMakeFiles\cmTC_3b488.dir\build
+Building CXX object CMakeFiles/cmTC_3b488.dir/testCXXCompiler.cxx.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nm4A02.tmp
 testCXXCompiler.cxx
-Linking CXX executable cmTC_0f4c0.exe
-	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_0f4c0.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_0f4c0.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nmABA6.tmp
+Linking CXX executable cmTC_3b488.exe
+	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_3b488.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_3b488.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nm4A8F.tmp
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/and_s/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_f87ef\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_f87ef.dir\build.make /nologo -L                  CMakeFiles\cmTC_f87ef.dir\build
-Building CXX object CMakeFiles/cmTC_f87ef.dir/CMakeCXXCompilerABI.cpp.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nmAE84.tmp
+Run Build Command:"nmake" "/NOLOGO" "cmTC_5d53e\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_5d53e.dir\build.make /nologo -L                  CMakeFiles\cmTC_5d53e.dir\build
+Building CXX object CMakeFiles/cmTC_5d53e.dir/CMakeCXXCompilerABI.cpp.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nm4E57.tmp
 CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_f87ef.exe
-	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_f87ef.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_f87ef.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nmAF21.tmp
+Linking CXX executable cmTC_5d53e.exe
+	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_5d53e.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_5d53e.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nm4EE5.tmp
 
 
 
 
 Detecting CXX [] compiler features compiled with the following output:
-Change Dir: C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/and_s/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_254ab\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_254ab.dir\build.make /nologo -L                  CMakeFiles\cmTC_254ab.dir\build
-Building CXX object CMakeFiles/cmTC_254ab.dir/feature_tests.cxx.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nmB356.tmp
+Run Build Command:"nmake" "/NOLOGO" "cmTC_bfe70\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_bfe70.dir\build.make /nologo -L                  CMakeFiles\cmTC_bfe70.dir\build
+Building CXX object CMakeFiles/cmTC_bfe70.dir/feature_tests.cxx.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nm5339.tmp
 feature_tests.cxx
-Linking CXX executable cmTC_254ab.exe
-	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_254ab.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_254ab.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nmB3D4.tmp
+Linking CXX executable cmTC_bfe70.exe
+	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_bfe70.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_bfe70.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nm53B7.tmp
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -165,30 +165,30 @@ Linking CXX executable cmTC_254ab.exe
     Feature record: CXX_FEATURE:1cxx_variadic_macros
     Feature record: CXX_FEATURE:1cxx_variadic_templates
 Performing C SOURCE FILE Test HAVE_WIN32_CC succeeded with the following output:
-Change Dir: C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/and_s/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_e217e\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_e217e.dir\build.make /nologo -L                  CMakeFiles\cmTC_e217e.dir\build
-Building C object CMakeFiles/cmTC_e217e.dir/src.c.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nmB78C.tmp
+Run Build Command:"nmake" "/NOLOGO" "cmTC_c24c7\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_c24c7.dir\build.make /nologo -L                  CMakeFiles\cmTC_c24c7.dir\build
+Building C object CMakeFiles/cmTC_c24c7.dir/src.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nm5898.tmp
 src.c
-Linking C executable cmTC_e217e.exe
-	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_e217e.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_e217e.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nmBB08.tmp
+Linking C executable cmTC_c24c7.exe
+	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_c24c7.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_c24c7.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nm59D2.tmp
 
 Source file was:
 
     #include <windows.h>
     int main(int argc, char **argv) { }
 Performing C SOURCE FILE Test HAVE_XINPUT_H succeeded with the following output:
-Change Dir: C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/and_s/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_51e2d\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_51e2d.dir\build.make /nologo -L                  CMakeFiles\cmTC_51e2d.dir\build
-Building C object CMakeFiles/cmTC_51e2d.dir/src.c.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nmBE33.tmp
+Run Build Command:"nmake" "/NOLOGO" "cmTC_176fc\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_176fc.dir\build.make /nologo -L                  CMakeFiles\cmTC_176fc.dir\build
+Building C object CMakeFiles/cmTC_176fc.dir/src.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nm5D0D.tmp
 src.c
-Linking C executable cmTC_51e2d.exe
-	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_51e2d.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_51e2d.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nmBF8C.tmp
+Linking C executable cmTC_176fc.exe
+	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_176fc.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_176fc.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nm5E56.tmp
 
 Source file was:
 
@@ -196,99 +196,99 @@ Source file was:
         #include <xinput.h>
         int main(int argc, char **argv) { }
 Determining if the include file d3d9.h exists passed with the following output:
-Change Dir: C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/and_s/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_93e5e\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_93e5e.dir\build.make /nologo -L                  CMakeFiles\cmTC_93e5e.dir\build
-Building C object CMakeFiles/cmTC_93e5e.dir/CheckIncludeFile.c.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nmC632.tmp
+Run Build Command:"nmake" "/NOLOGO" "cmTC_bf413\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_bf413.dir\build.make /nologo -L                  CMakeFiles\cmTC_bf413.dir\build
+Building C object CMakeFiles/cmTC_bf413.dir/CheckIncludeFile.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nm6625.tmp
 CheckIncludeFile.c
-Linking C executable cmTC_93e5e.exe
-	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_93e5e.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_93e5e.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nmC79B.tmp
+Linking C executable cmTC_bf413.exe
+	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_bf413.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_bf413.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nm678D.tmp
 
 
 Determining if the include file d3d11_1.h exists passed with the following output:
-Change Dir: C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/and_s/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_03724\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_03724.dir\build.make /nologo -L                  CMakeFiles\cmTC_03724.dir\build
-Building C object CMakeFiles/cmTC_03724.dir/CheckIncludeFile.c.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nmCA59.tmp
+Run Build Command:"nmake" "/NOLOGO" "cmTC_0b8a9\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_0b8a9.dir\build.make /nologo -L                  CMakeFiles\cmTC_0b8a9.dir\build
+Building C object CMakeFiles/cmTC_0b8a9.dir/CheckIncludeFile.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nm6AF7.tmp
 CheckIncludeFile.c
-Linking C executable cmTC_03724.exe
-	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_03724.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_03724.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nmCC1F.tmp
+Linking C executable cmTC_0b8a9.exe
+	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_0b8a9.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_0b8a9.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nm6C6F.tmp
 
 
 Determining if the include file ddraw.h exists passed with the following output:
-Change Dir: C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/and_s/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_e043d\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_e043d.dir\build.make /nologo -L                  CMakeFiles\cmTC_e043d.dir\build
-Building C object CMakeFiles/cmTC_e043d.dir/CheckIncludeFile.c.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nmCEDD.tmp
+Run Build Command:"nmake" "/NOLOGO" "cmTC_37847\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_37847.dir\build.make /nologo -L                  CMakeFiles\cmTC_37847.dir\build
+Building C object CMakeFiles/cmTC_37847.dir/CheckIncludeFile.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nm6FCA.tmp
 CheckIncludeFile.c
-Linking C executable cmTC_e043d.exe
-	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_e043d.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_e043d.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nmD036.tmp
+Linking C executable cmTC_37847.exe
+	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_37847.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_37847.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nm7132.tmp
 
 
 Determining if the include file dsound.h exists passed with the following output:
-Change Dir: C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/and_s/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_b0972\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_b0972.dir\build.make /nologo -L                  CMakeFiles\cmTC_b0972.dir\build
-Building C object CMakeFiles/cmTC_b0972.dir/CheckIncludeFile.c.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nmD2F4.tmp
+Run Build Command:"nmake" "/NOLOGO" "cmTC_85165\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_85165.dir\build.make /nologo -L                  CMakeFiles\cmTC_85165.dir\build
+Building C object CMakeFiles/cmTC_85165.dir/CheckIncludeFile.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nm7538.tmp
 CheckIncludeFile.c
-Linking C executable cmTC_b0972.exe
-	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_b0972.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_b0972.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nmD43D.tmp
+Linking C executable cmTC_85165.exe
+	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_85165.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_85165.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nm7681.tmp
 
 
 Determining if the include file dinput.h exists passed with the following output:
-Change Dir: C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/and_s/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_0327f\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_0327f.dir\build.make /nologo -L                  CMakeFiles\cmTC_0327f.dir\build
-Building C object CMakeFiles/cmTC_0327f.dir/CheckIncludeFile.c.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nmD6EB.tmp
+Run Build Command:"nmake" "/NOLOGO" "cmTC_c0be0\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_c0be0.dir\build.make /nologo -L                  CMakeFiles\cmTC_c0be0.dir\build
+Building C object CMakeFiles/cmTC_c0be0.dir/CheckIncludeFile.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nm7A49.tmp
 CheckIncludeFile.c
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-Linking C executable cmTC_0327f.exe
-	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_0327f.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_0327f.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nmD844.tmp
+Linking C executable cmTC_c0be0.exe
+	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_c0be0.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_c0be0.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nm7B92.tmp
 
 
 Determining if the include file mmdeviceapi.h exists passed with the following output:
-Change Dir: C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/and_s/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_03f91\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_03f91.dir\build.make /nologo -L                  CMakeFiles\cmTC_03f91.dir\build
-Building C object CMakeFiles/cmTC_03f91.dir/CheckIncludeFile.c.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nmDB31.tmp
+Run Build Command:"nmake" "/NOLOGO" "cmTC_cdf9a\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_cdf9a.dir\build.make /nologo -L                  CMakeFiles\cmTC_cdf9a.dir\build
+Building C object CMakeFiles/cmTC_cdf9a.dir/CheckIncludeFile.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nm7EED.tmp
 CheckIncludeFile.c
-Linking C executable cmTC_03f91.exe
-	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_03f91.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_03f91.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nmDCA9.tmp
+Linking C executable cmTC_cdf9a.exe
+	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_cdf9a.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_cdf9a.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nm8036.tmp
 
 
 Determining if the include file audioclient.h exists passed with the following output:
-Change Dir: C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/and_s/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_b1764\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_b1764.dir\build.make /nologo -L                  CMakeFiles\cmTC_b1764.dir\build
-Building C object CMakeFiles/cmTC_b1764.dir/CheckIncludeFile.c.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nmDF48.tmp
+Run Build Command:"nmake" "/NOLOGO" "cmTC_5293d\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_5293d.dir\build.make /nologo -L                  CMakeFiles\cmTC_5293d.dir\build
+Building C object CMakeFiles/cmTC_5293d.dir/CheckIncludeFile.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nm83CF.tmp
 CheckIncludeFile.c
-Linking C executable cmTC_b1764.exe
-	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_b1764.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_b1764.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nmE0C0.tmp
+Linking C executable cmTC_5293d.exe
+	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_5293d.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_5293d.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nm8518.tmp
 
 
 Determining if the include file dxgi.h exists passed with the following output:
-Change Dir: C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/and_s/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_ea91d\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_ea91d.dir\build.make /nologo -L                  CMakeFiles\cmTC_ea91d.dir\build
-Building C object CMakeFiles/cmTC_ea91d.dir/CheckIncludeFile.c.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nmE37E.tmp
+Run Build Command:"nmake" "/NOLOGO" "cmTC_e05cb\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_e05cb.dir\build.make /nologo -L                  CMakeFiles\cmTC_e05cb.dir\build
+Building C object CMakeFiles/cmTC_e05cb.dir/CheckIncludeFile.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nm88D0.tmp
 CheckIncludeFile.c
-Linking C executable cmTC_ea91d.exe
-	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_ea91d.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_ea91d.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nmE4C7.tmp
+Linking C executable cmTC_e05cb.exe
+	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_e05cb.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_e05cb.dir\objects1.rsp @C:\Users\and_s\AppData\Local\Temp\nm8A19.tmp
 
 

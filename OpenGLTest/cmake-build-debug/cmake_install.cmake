@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/and_s/opengltest/OpenGLTest
+# Install script for directory: C:/Users/and_s/CLionProjects/OpenGLTest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/GLEW/cmake_install.cmake")
-  include("C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/SDL/cmake_install.cmake")
-  include("C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/ThirdParty/rapidjson/cmake_install.cmake")
-  include("C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/src/Engine/Math/cmake_install.cmake")
+  include("C:/Users/and_s/CLionProjects/OpenGLTest/cmake-build-debug/ThirdParty/GLEW/cmake_install.cmake")
+  include("C:/Users/and_s/CLionProjects/OpenGLTest/cmake-build-debug/ThirdParty/SDL/cmake_install.cmake")
 
 endif()
 
@@ -49,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/and_s/opengltest/OpenGLTest/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/and_s/CLionProjects/OpenGLTest/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

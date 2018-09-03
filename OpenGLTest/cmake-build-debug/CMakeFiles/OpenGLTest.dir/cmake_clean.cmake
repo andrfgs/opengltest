@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/OpenGLTest.dir/src/Engine/Core/Main.cpp.obj"
+  "CMakeFiles/OpenGLTest.dir/src/main.cpp.obj"
   "OpenGLTest.pdb"
   "OpenGLTest.exe"
   "OpenGLTest.exe.manifest"

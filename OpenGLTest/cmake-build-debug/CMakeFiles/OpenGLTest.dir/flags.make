@@ -4,7 +4,7 @@
 # compile CXX with C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.13.26128/bin/Hostx64/x64/cl.exe
 CXX_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   -std:c++14
 
-CXX_DEFINES = -DLIBC=ON -DSDL_SHARED=0 -DSDL_STATIC=1 -DSDL_TEST=0
+CXX_DEFINES = -DSDL_STATIC=1
 
-CXX_INCLUDES = -IC:\Users\and_s\opengltest\OpenGLTest\src -IC:\Users\and_s\opengltest\OpenGLTest\src\ThirdParty\GLEW\include -IC:\Users\and_s\opengltest\OpenGLTest\src\ThirdParty\rapidjson\. 
+CXX_INCLUDES = -IC:\Users\and_s\CLionProjects\OpenGLTest\ThirdParty\GLEW\include 
 

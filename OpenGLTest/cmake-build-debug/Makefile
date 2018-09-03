@@ -49,10 +49,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\and_s\opengltest\OpenGLTest
+CMAKE_SOURCE_DIR = C:\Users\and_s\CLionProjects\OpenGLTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -115,9 +115,9 @@ list_install_components\fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\CMakeFiles C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\opengltest\OpenGLTest\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -168,7 +168,7 @@ GLEW: cmake_check_build_system
 
 # fast build rule for target.
 GLEW\fast:
-	$(MAKE) -f src\ThirdParty\GLEW\CMakeFiles\GLEW.dir\build.make /nologo -$(MAKEFLAGS) src\ThirdParty\GLEW\CMakeFiles\GLEW.dir\build
+	$(MAKE) -f ThirdParty\GLEW\CMakeFiles\GLEW.dir\build.make /nologo -$(MAKEFLAGS) ThirdParty\GLEW\CMakeFiles\GLEW.dir\build
 .PHONY : GLEW\fast
 
 #=============================================================================
@@ -181,7 +181,7 @@ SDL2-static: cmake_check_build_system
 
 # fast build rule for target.
 SDL2-static\fast:
-	$(MAKE) -f src\ThirdParty\SDL\CMakeFiles\SDL2-static.dir\build.make /nologo -$(MAKEFLAGS) src\ThirdParty\SDL\CMakeFiles\SDL2-static.dir\build
+	$(MAKE) -f ThirdParty\SDL\CMakeFiles\SDL2-static.dir\build.make /nologo -$(MAKEFLAGS) ThirdParty\SDL\CMakeFiles\SDL2-static.dir\build
 .PHONY : SDL2-static\fast
 
 #=============================================================================
@@ -194,7 +194,7 @@ SDL2main: cmake_check_build_system
 
 # fast build rule for target.
 SDL2main\fast:
-	$(MAKE) -f src\ThirdParty\SDL\CMakeFiles\SDL2main.dir\build.make /nologo -$(MAKEFLAGS) src\ThirdParty\SDL\CMakeFiles\SDL2main.dir\build
+	$(MAKE) -f ThirdParty\SDL\CMakeFiles\SDL2main.dir\build.make /nologo -$(MAKEFLAGS) ThirdParty\SDL\CMakeFiles\SDL2main.dir\build
 .PHONY : SDL2main\fast
 
 #=============================================================================
@@ -207,35 +207,35 @@ SDL2: cmake_check_build_system
 
 # fast build rule for target.
 SDL2\fast:
-	$(MAKE) -f src\ThirdParty\SDL\CMakeFiles\SDL2.dir\build.make /nologo -$(MAKEFLAGS) src\ThirdParty\SDL\CMakeFiles\SDL2.dir\build
+	$(MAKE) -f ThirdParty\SDL\CMakeFiles\SDL2.dir\build.make /nologo -$(MAKEFLAGS) ThirdParty\SDL\CMakeFiles\SDL2.dir\build
 .PHONY : SDL2\fast
 
-src\Engine\Core\Main.obj: src\Engine\Core\Main.cpp.obj
+src\main.obj: src\main.cpp.obj
 
-.PHONY : src\Engine\Core\Main.obj
+.PHONY : src\main.obj
 
 # target to build an object file
-src\Engine\Core\Main.cpp.obj:
-	$(MAKE) -f CMakeFiles\OpenGLTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGLTest.dir\src\Engine\Core\Main.cpp.obj
-.PHONY : src\Engine\Core\Main.cpp.obj
+src\main.cpp.obj:
+	$(MAKE) -f CMakeFiles\OpenGLTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGLTest.dir\src\main.cpp.obj
+.PHONY : src\main.cpp.obj
 
-src\Engine\Core\Main.i: src\Engine\Core\Main.cpp.i
+src\main.i: src\main.cpp.i
 
-.PHONY : src\Engine\Core\Main.i
+.PHONY : src\main.i
 
 # target to preprocess a source file
-src\Engine\Core\Main.cpp.i:
-	$(MAKE) -f CMakeFiles\OpenGLTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGLTest.dir\src\Engine\Core\Main.cpp.i
-.PHONY : src\Engine\Core\Main.cpp.i
+src\main.cpp.i:
+	$(MAKE) -f CMakeFiles\OpenGLTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGLTest.dir\src\main.cpp.i
+.PHONY : src\main.cpp.i
 
-src\Engine\Core\Main.s: src\Engine\Core\Main.cpp.s
+src\main.s: src\main.cpp.s
 
-.PHONY : src\Engine\Core\Main.s
+.PHONY : src\main.s
 
 # target to generate assembly for a file
-src\Engine\Core\Main.cpp.s:
-	$(MAKE) -f CMakeFiles\OpenGLTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGLTest.dir\src\Engine\Core\Main.cpp.s
-.PHONY : src\Engine\Core\Main.cpp.s
+src\main.cpp.s:
+	$(MAKE) -f CMakeFiles\OpenGLTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OpenGLTest.dir\src\main.cpp.s
+.PHONY : src\main.cpp.s
 
 # Help Target
 help:
@@ -253,9 +253,9 @@ help:
 	@echo ... SDL2-static
 	@echo ... SDL2main
 	@echo ... SDL2
-	@echo ... src/Engine/Core/Main.obj
-	@echo ... src/Engine/Core/Main.i
-	@echo ... src/Engine/Core/Main.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 
