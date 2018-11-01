@@ -1,0 +1,42 @@
+Performing C SOURCE FILE Test HAVE_XINPUT_GAMEPAD_EX failed with the following output:
+Change Dir: C:/Users/and_s/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_829e1\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_829e1.dir\build.make /nologo -L                  CMakeFiles\cmTC_829e1.dir\build
+Building C object CMakeFiles/cmTC_829e1.dir/src.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nm620E.tmp
+src.c
+C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles\CMakeTmp\src.c(4): error C2061: syntax error: identifier 'x1'
+C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles\CMakeTmp\src.c(4): error C2059: syntax error: ';'
+NMAKE : fatal error U1077: 'C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe' : return code '0x2'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe"' : return code '0x2'
+Stop.
+
+Source file was:
+
+        #include <windows.h>
+        #include <xinput.h>
+        XINPUT_GAMEPAD_EX x1;
+        int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_XINPUT_STATE_EX failed with the following output:
+Change Dir: C:/Users/and_s/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_0ce09\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe" -f CMakeFiles\cmTC_0ce09.dir\build.make /nologo -L                  CMakeFiles\cmTC_0ce09.dir\build
+Building C object CMakeFiles/cmTC_0ce09.dir/src.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe @C:\Users\and_s\AppData\Local\Temp\nm6402.tmp
+src.c
+C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles\CMakeTmp\src.c(4): error C2061: syntax error: identifier 's1'
+C:\Users\and_s\CLionProjects\OpenGLTest\cmake-build-debug\CMakeFiles\CMakeTmp\src.c(4): error C2059: syntax error: ';'
+NMAKE : fatal error U1077: 'C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx64\x64\cl.exe' : return code '0x2'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX64\x64\nmake.exe"' : return code '0x2'
+Stop.
+
+Source file was:
+
+        #include <windows.h>
+        #include <xinput.h>
+        XINPUT_STATE_EX s1;
+        int main(int argc, char **argv) { }
